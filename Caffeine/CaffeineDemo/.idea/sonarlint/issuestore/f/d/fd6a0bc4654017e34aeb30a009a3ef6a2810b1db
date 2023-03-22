@@ -1,0 +1,7 @@
+
+ˆ
+java:S1319"fThe type of "map" should be an interface such as "SortedMap" rather than the implementation "TreeMap".(Êíƒııÿÿÿÿ8şšâ¾è0
+z
+java:S1488"]Immediately return this expression instead of assigning it to the temporary variable "value".(ÕÏÊ—8€›â¾è0
+W
+java:S1118":Add a private constructor to hide the implicit public one.(ÚÆ¿8˜›â¾è0
