@@ -1,0 +1,33 @@
+version: "3"
+services:
+  web:
+    hostname: mayikt
+    build: ./     #需要构建的Dockerfile文件
+    ports:
+      - "38000:8080"      #容器端口映射到宿主机的端口
+    depends_on:      #web服务依赖mysql服务，要等mysql服务先启动
+      - mysql
+    networks:
+      - mayikt_web
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: 'root'
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'no'
+      MYSQL_DATABASE: 'mayikt'
+      MYSQL_USER: 'mayikt'
+      MYSQL_PASSWORD: 'mayikt'
+    networks:
+      - mayikt_web
+  redis:
+    image: redis:5
+    networks:
+      - mayikt_web
+  es:
+    image: es:5
+    networks:
+      - mayikt_web
+### elk+kafka
+### docker compose 安装微服务
+networks:
+  mayikt_web:

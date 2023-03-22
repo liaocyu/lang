@@ -1,0 +1,20 @@
+version: "3.0"
+services:
+  tomcat8080:
+    image: tomcat:8 #服务名称
+    ports:
+    - 8080:8080
+    volumes: # 容器外部与容器内部共享
+    - /usr/tomcat/webapps:/usr/local/tomcat/webapps
+    networks:  ###定义网络的桥
+      - mayikt
+  tomcat8081:
+    image: tomcat:8 #服务名称
+    ports:
+      - 8081:8080
+    volumes: # 容器外部与容器内部共享
+      - /usr/tomcat/webapps:/usr/local/tomcat/webapps
+    networks:  ###定义网络的桥
+      - mayikt
+networks:  ## 定义服务的桥
+  mayikt:

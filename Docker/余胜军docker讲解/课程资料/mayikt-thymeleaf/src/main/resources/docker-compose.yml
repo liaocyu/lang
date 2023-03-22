@@ -1,0 +1,24 @@
+version: '3.0'
+services:
+  tomcat80: ##服务名称
+    #container_name: tomcat8080 指定容器名称
+    image: tomcat:8 #镜像文件名称 run images
+    ports:  ###端口号的映射 -p
+    - 8080:8080
+    volumes: ## 数据源 宿主机与容器数据共享  -v
+      - /usr/tomcat/webapps:/usr/local/tomcat/webapps
+    networks:  ###定义网络的桥
+      - meite
+  tomcat81: ##服务名称
+    #container_name: tomcat8080 指定容器名称
+    image: tomcat:8 #镜像文件名称
+    ports:  ###端口号的映射
+      - 808   1:8080
+    volumes: ## 数据源 宿主机与容器数据共享
+      - /usr/tomcat/webapps:/usr/local/tomcat/webapps
+    networks:
+      - meite
+networks:  ## 定义服务的桥
+  mayikt:
+
+###

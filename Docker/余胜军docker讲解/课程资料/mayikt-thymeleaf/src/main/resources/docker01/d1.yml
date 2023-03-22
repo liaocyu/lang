@@ -1,0 +1,23 @@
+version: "3"
+services:
+  web:
+    hostname: mayikt
+    build: ./     #需要构建的Dockerfile文件
+    ports:
+      - "38000:8080"      #容器端口映射到宿主机的端口
+    environment:
+      username: root    #springboot项目中连接数据库需要的环境变量
+      password: root      # mysql:3306 这里不能写localhost:3306，应该写下面这种，mysql对应的是服务名称
+      url: jdbc:mysql://mysql:3306/mayiktdb?useUnicode=true&characterEncoding=utf8
+    depends_on:      #web服务依赖mysql服务，要等mysql服务先启动
+      - mysql
+
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: mayiktdb
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+    ports:
+      - "33306:3306"

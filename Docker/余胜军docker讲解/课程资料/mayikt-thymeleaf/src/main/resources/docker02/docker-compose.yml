@@ -1,0 +1,21 @@
+version: "3.0"
+services:
+  tomcat8080: ###tomcat服务名称
+   # container_name: mayikt-8080 容器名称
+    image:  tomcat:8  # 下载我们tomcat8镜像文件
+    ports:
+    - 18080:8080 # 容器外部端口号是为18080 容器内部是为8080
+    volumes:
+    - /usr/tomcat/webapps:/usr/local/tomcat/webapps
+    networks:  ###定义网络的桥
+      - mayikt
+  tomcat8081: ###tomcat服务名称
+    image:  tomcat:8  # 下载我们tomcat8镜像文件
+    ports:
+      - 18081:8080 # 容器外部端口号是为18080 容器内部是为8080
+    volumes:
+      - /usr/tomcat/webapps:/usr/local/tomcat/webapps
+    networks:  ###定义网络的桥
+      - mayikt
+networks:  ## 定义服务的桥
+  mayikt:

@@ -1,0 +1,22 @@
+version: "3.0" #定义compose 版本号码
+services: ##服务 ----实际上就是一个独立容器运行
+  tomcat8080: ## 服务名称
+    #container_name: mayikt8080 tomcat 指定容器名称
+    image: tomcat:8 # 依赖镜像文件名称 tomcat:8
+    ports:
+      - 8080:8080
+    volumes:  ###数据卷 容器外部与容器内部实现共享 -v指令
+      - /usr/tomcat/webapps:/usr/local/tomcat/webapps
+    networks:  ##定义服务的桥
+      - mayikt_web
+  tomcat8081: ## 服务名称
+    #container_name: mayikt8080 tomcat 指定容器名称
+    image: tomcat:8 # 依赖镜像文件名称 tomcat:8
+    ports:
+      - 8081:8080
+    volumes:  ###数据卷 容器外部与容器内部实现共享 -v指令
+      - /usr/tomcat/webapps:/usr/local/tomcat/webapps
+    networks:  ##定义服务的桥
+      - mayikt_web
+networks:  ## 定义服务的桥
+  mayikt_web:
