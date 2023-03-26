@@ -1,0 +1,23 @@
+
+V	java:S125"<This block of commented-out lines of code should be removed.(¹£¶ıÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ú”ÛÆûÿÿÿÿ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”¦ÊÍ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.( ËñÑùÿÿÿÿ
+N	java:S106("9Replace this use of System.out or System.err by a logger.(˜Ó©¼
+y
+java:S2142-"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(Â–¿Ùşÿÿÿÿ
+X	java:S1253"<This block of commented-out lines of code should be removed.( ­ûî8Ç›·­ï0
+h	java:S1009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å¨¥œúÿÿÿÿ
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(Ğüııÿÿÿÿ
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(Äã–µ
+y
+java:S2142F"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(Â–¿Ùşÿÿÿÿ
+h	java:S100L"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«çÛøÿÿÿÿ
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(´ÅöŒøÿÿÿÿ
+N	java:S106U"9Replace this use of System.out or System.err by a logger.(ïÅèÖ
+y
+java:S2142Z"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(Â–¿Ùşÿÿÿÿ
+P
+java:S11449"5Remove this unused private "m2_atomicBoolean" method.(å¨¥œúÿÿÿÿ
+K
+java:S1144L"0Remove this unused private "m1_volatile" method.(«çÛøÿÿÿÿ

@@ -1,0 +1,19 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•«¯õ8œì™Âî0
+y
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ˆ«šÇþÿÿÿÿ
+s
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(·Œ•
+s
+java:S2142#"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(·Œ•
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(íÄÀ øÿÿÿÿ
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(ãÔñÞ
+y
+java:S21421"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ˆ«šÇþÿÿÿÿ
+s
+java:S21422"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(·Œ•
+z
+java:S21423"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(·Œ•8ˆË¨³î0
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(íÄÀ øÿÿÿÿ
+<
+java:S1144/"&Remove this unused private "m" method.(ø‹âî

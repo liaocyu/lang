@@ -1,0 +1,10 @@
+
+<
+java:S1481"&Remove this unused "s" local variable.(ê¤‘µ
+y
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ˆ«šÇþÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(²Ñ›¢þÿÿÿÿ
+<
+java:S1481""&Remove this unused "s" local variable.(ê¤‘µ
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(ƒÙ‡
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(ŽÛ—Þûÿÿÿÿ

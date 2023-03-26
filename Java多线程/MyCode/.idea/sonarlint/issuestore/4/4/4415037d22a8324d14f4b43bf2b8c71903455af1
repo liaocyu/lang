@@ -1,0 +1,8 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÿ —‘
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÇó¢þÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(åº±ìùÿÿÿÿ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÀ¶
+S	java:S106."9Replace this use of System.out or System.err by a logger.(Ûæœ—ÿÿÿÿÿ
+d
+java:S1128"BRemove this unused import 'java.util.function.LongBinaryOperator'.(§–þéüÿÿÿÿ8Ñ©õÑð0

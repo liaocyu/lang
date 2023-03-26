@@ -1,0 +1,18 @@
+
+l
+java:S1192s"ODefine a constant instead of duplicating this literal "----costTime: " 5 times.(¸û8Áˆ†Òğ0
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÿ —‘
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…‡­Ä
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½‚•›ûÿÿÿÿ
+h	java:S100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò³İüÿÿÿÿ
+h	java:S100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÇó¢şÿÿÿÿ
+Q	java:S125)"<This block of commented-out lines of code should be removed.(ğİÙÎ
+c	java:S100/"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÀ¶
+{	java:S115<"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ìÅûıÿÿÿÿ8§Š†Òğ0
+n
+java:S3776>"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(º™Ú78«Š†Òğ0
+U	java:S106s"9Replace this use of System.out or System.err by a logger.(¸û8±Š†Òğ0
+V	java:S106™"9Replace this use of System.out or System.err by a logger.(Î†ÁÌ8³Š†Òğ0
+V	java:S106¾"9Replace this use of System.out or System.err by a logger.(˜äÂ8µŠ†Òğ0
+[	java:S106ã"9Replace this use of System.out or System.err by a logger.(Ÿåêşÿÿÿÿ8·Š†Òğ0
+[	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(úŠ»¬úÿÿÿÿ8ºŠ†Òğ0

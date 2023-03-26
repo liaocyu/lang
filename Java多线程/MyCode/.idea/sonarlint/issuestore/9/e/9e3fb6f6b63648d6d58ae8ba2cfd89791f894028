@@ -1,0 +1,12 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(áéâúÿÿÿÿ8¾íå­ï0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ä¹®â8èÚæ­ï0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ö€˜Ê8÷¥ì­ï0
+€
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(¾ÌÕôøÿÿÿÿ8š¨í­ï0
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(„‚ùûüÿÿÿÿ8©›ï­ï0
+€
+java:S2142$"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(„¯Ï£ıÿÿÿÿ8øğ­ï0
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(×™Ã½8˜Óò­ï0
+a
+java:S1128"FRemove this unused import 'java.util.concurrent.atomic.AtomicBoolean'.(§­‹¼üÿÿÿÿ

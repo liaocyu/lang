@@ -1,4 +1,4 @@
-package zhouyang.thread;
+package zhouyang.threadLocal;
 
 /**
  * @author : create by lcy
