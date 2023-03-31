@@ -1,0 +1,25 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óÎ °ùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÃªÖäıÿÿÿÿ
+P
+java:S1854
+":Remove this useless assignment to local variable "sheep5".(¥óˆí
+U
+java:S1854	":Remove this useless assignment to local variable "sheep4".(Ø¢¶¿ÿÿÿÿÿ
+O
+java:S1854":Remove this useless assignment to local variable "sheep3".(Ñô
+P
+java:S1854":Remove this useless assignment to local variable "sheep2".(ˆ¹ÙÁ
+P
+java:S1854":Remove this useless assignment to local variable "sheep1".(êµ·ï
+A
+java:S1481"+Remove this unused "sheep1" local variable.(êµ·ï
+A
+java:S1481"+Remove this unused "sheep2" local variable.(ˆ¹ÙÁ
+@
+java:S1481"+Remove this unused "sheep3" local variable.(Ñô
+F
+java:S1481	"+Remove this unused "sheep4" local variable.(Ø¢¶¿ÿÿÿÿÿ
+A
+java:S1481
+"+Remove this unused "sheep5" local variable.(¥óˆí

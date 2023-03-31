@@ -1,0 +1,11 @@
+
+`	java:S112)"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Úì«²ÿÿÿÿÿ
+l
+java:S1450
+"VRemove the "factory" field and declare it as a local variable in the relevant methods.(¬à¥¹
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ðÙåO
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(ÿÐŸçÿÿÿÿÿ
+A
+java:S1068
+"+Remove this unused "factory" private field.(¬à¥¹
