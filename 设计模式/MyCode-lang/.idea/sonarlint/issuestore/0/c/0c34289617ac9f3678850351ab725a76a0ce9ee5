@@ -1,0 +1,10 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹ş
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ì›÷/8¤Ö¼Ãò0
+T	java:S106"9Replace this use of System.out or System.err by a logger.(«ÓÚ?8¥Ö¼Ãò0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(÷‘É½ùÿÿÿÿ8¦Ö¼Ãò0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(—²â¯8¦Ö¼Ãò0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÓğÀ¾ùÿÿÿÿ8¦Ö¼Ãò0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(°´Èéşÿÿÿÿ8ö¸½Ãò0
+q
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(‡¹‰õ8œãŞ’ó0
